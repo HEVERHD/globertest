@@ -1,9 +1,9 @@
-import React from "react";
+import puffi from "../assets/img_nav/puffi.png";
 
 export const Navbar = () => {
   return (
     <div className=" navbar_container ">
-      <p> Inicio </p>
+      <img src={puffi} />
     </div>
   );
 };

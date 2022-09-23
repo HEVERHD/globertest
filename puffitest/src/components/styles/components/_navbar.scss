@@ -1,6 +1,7 @@
 .navbar_container {
-  background-color: $main;
-  padding: 10px;
+  align-items: flex-start;
+  display: flex;
+  justify-content: space-evenly;
 
   p {
     color: $white;
@@ -8,5 +9,11 @@
     &:hover {
       color: aquamarine;
     }
+  }
+
+  img {
+    height: 100px;
+    margin-top: 20px;
+    width: 100px;
   }
 }
