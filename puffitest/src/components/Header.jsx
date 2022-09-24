@@ -11,10 +11,8 @@ export const Header = () => {
           NUNCA FUE TAN FÁCIL.
         </h1>
       </div>
-      <div className="butonDiv">
-        <button type="buton" className="buton">
-          SHOP
-        </button>
+      <div className="buton_Container">
+        <button type="buton">SHOP</button>
       </div>
     </div>
   );

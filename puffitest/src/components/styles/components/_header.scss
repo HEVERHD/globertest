@@ -1,8 +1,42 @@
 .header_container {
+  background: url("../../src/assets/img_slider/slider.jpg");
+
   background-attachment: fixed;
-  background-image: url("../../../assets/img_slider/slider.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 800px;
+
+  h1 {
+    color: #ffffff;
+    font-size: 30px;
+    margin-left: 1%;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.317) 2px 2px 2px;
+  }
+}
+
+.buton_Container {
+  margin-top: 168px;
+  text-align: center;
+
+  button {
+    background-color: transparent;
+    border: 2px solid $white;
+    color: $white;
+    font-size: 14px;
+    height: 62px;
+    margin: 35px;
+    margin-right: 18px;
+    padding: 18px;
+    width: 135px;
+    transform: rotate(0deg);
+
+    &:hover {
+      cursor: pointer;
+      font-size: medium;
+      transition: 0.5s;
+      transform: rotate(10deg);
+    }
+  }
 }

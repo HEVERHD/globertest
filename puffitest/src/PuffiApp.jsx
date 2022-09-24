@@ -1,5 +1,5 @@
 //components
-import { Navbar, Header } from "./components";
+import { Header } from "./components";
 
 //styles
 import "./components/styles/styles.scss";
@@ -7,7 +7,6 @@ import "./components/styles/styles.scss";
 function App() {
   return (
     <>
-      <Navbar />
       <Header />
     </>
   );
